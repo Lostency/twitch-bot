@@ -4,7 +4,7 @@ import { ConduitClient } from './utils/ConduitClient.js';
 import { Cooldown } from './utils/cooldown.js';
 import { Database } from './utils/Database.js';
 import { Logger } from './utils/Logger.js';
-import { Permissions } from './utils/permissions.js';
+import { Permissions } from './utils/Permissions.js';
 import { Utils } from './utils/utils.js';
 import { Stats } from './utils/Stats.js';
 import { Channels } from './utils/Channels.js';
