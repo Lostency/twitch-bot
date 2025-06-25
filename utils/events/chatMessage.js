@@ -3,7 +3,7 @@ import config from '../../config.js';
 export const channelChatMessage = async (event) => {
   const channel = bot.channels.get(event.broadcaster_user_id);
 
-  const prefix = channel.prefix || config.bot.prefix;
+  const prefix = channel?.prefix || config.bot.prefix;
 
   bot.db.query(
     `INSERT INTO users (userId, username) VALUES (?, ?) ON DUPLICATE KEY UPDATE username = VALUES(username)`,
