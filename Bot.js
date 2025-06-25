@@ -1,11 +1,11 @@
 import { readdirSync } from 'fs';
 import { Api } from './utils/Api.js';
 import { ConduitClient } from './utils/ConduitClient.js';
-import { Cooldown } from './utils/cooldown.js';
+import { Cooldown } from './utils/Cooldown.js';
 import { Database } from './utils/Database.js';
 import { Logger } from './utils/Logger.js';
-import { Permissions } from './utils/permissions.js';
-import { Utils } from './utils/utils.js';
+import { Permissions } from './utils/Permissions.js';
+import { Utils } from './utils/Utils.js';
 import { Stats } from './utils/Stats.js';
 import { Channels } from './utils/Channels.js';
 
